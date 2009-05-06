@@ -30,7 +30,7 @@ def follow():
 	print "requesting url=" + url
 
 	req = urllib2.Request(url)
-	req.add_header('Referer', 'http://www.python.org/')
+	req.add_header('Referer', 'http://github.com/robspychala/twitter-follow.py/tree/master')
 	f = urllib2.urlopen(req)
 
 	users = Set()
